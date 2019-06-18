@@ -28,6 +28,8 @@ Obtain or build a container in your home directory
 [ce16990@mgmt ~]$  singularity pull docker://godlovedc/lolcow
 ```
 
+Construct a Slurm job script:
+
 ```bash
 #! /bin/bash
 
@@ -47,7 +49,7 @@ Submit job, check output
 Submitted batch job 2
 [ce16990@mgmt ~]$ cat slurm-2.out 
  ___________________________
-/ Hello frun Singularity on \
+/ Hello from Singularity on \
 \ vm-standard2-2-ad1-0001   /
  ---------------------------
         \   ^__^

@@ -1,0 +1,7 @@
+---
+- name: Install other packages
+  yum:
+    name: "{{ packages }}"
+  vars:
+    packages:
+    - singularity-runtime
